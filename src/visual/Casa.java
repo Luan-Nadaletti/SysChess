@@ -2,10 +2,9 @@ package visual;
 
 import estrutural.Peca;
 import java.awt.Color;
-import java.awt.Dimension;
 import javax.swing.JButton;
 
-public class Casa extends JButton {
+public final class Casa extends JButton {
 
     private int linha, coluna;
     private Peca peca;
