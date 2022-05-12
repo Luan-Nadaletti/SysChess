@@ -18,6 +18,7 @@ public class Tabuleiro {
     }
 
     public void printTabuleiro() {
+
         for (int i = 0; i < pecas.size(); i++) {
             for (int j = 0; j < pecas.get(i).size(); j++) {
                 if (pecas.get(i).get(j) == null) {
