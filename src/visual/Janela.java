@@ -1,6 +1,5 @@
 package visual;
 
-import java.awt.BorderLayout;
 import javax.swing.JFrame;
 
 public class Janela extends JFrame{
@@ -14,8 +13,8 @@ public class Janela extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        this.getContentPane().add(new Panel(), BorderLayout.CENTER);
-        this.pack();
+        this.add(new Panel());
+        this.setSize(600, 600);
         this.setVisible(true);
     }
 }
